@@ -8,6 +8,13 @@ Open up vim and install plugins:
 :PluginInstall
 ```
 
+### My Mappings
+
+<Leader> is " "
+<Leader> h/j/k/l -> move between buffers
+<Leader>o -> toggle NerdTree 
+<Leader>f -> open a code fold
+
 ### Vinegar shortcuts
 
 While browsing through the directory...
