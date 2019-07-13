@@ -1,6 +1,6 @@
-#Vim Config
+# Vim Config
 
-### Getting Started
+## Getting Started
 
 Clone down repo and replace /.vim directory
 
@@ -10,7 +10,7 @@ Open up vim and install plugins:
 :PluginInstall
 ```
 
-### My Mappings
+## My Mappings
 
 &lt;Leader&gt; is " "
 
@@ -20,11 +20,11 @@ Open up vim and install plugins:
 
 &lt;Leader&gt;f -&gt; open a code fold
 
-### Vinegar shortcuts
+## Vinegar shortcuts
 
 While browsing through the directory...
 
-- -&gt; moves up a directory
+"-" -&gt; moves up a directory
 
 d -&gt; creates a directory
 
