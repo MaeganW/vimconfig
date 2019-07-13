@@ -42,14 +42,18 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highlight removal.
 nmap <Leader><space> :nohlsearch<cr>
 
-nmap <space> za
+"Toggle code folding
+"nmap <space> za
+
+"Toggle nerdtree
+nmap <space> :NERDTreeToggle<cr>
 
 
 "-------------Auto-Commands--------------"
 "Automatically source the Vimrc file on save.
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vimrc source %
+	autocmd BufWritePost .vim/vimrc source %
 augroup END
 
 
