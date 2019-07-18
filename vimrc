@@ -57,7 +57,25 @@ nmap <Leader>f za
 "Toggle nerdtree
 nmap <Leader>o :NERDTreeToggle<cr>
 
+"CtrlP
+nmap <Leader>p <C-p>
+
+"CtrlP - search for symbols
+nmap <Leader>s :CtrlPBufTag<cr>
+
+"CtrlP - searches most recently used files
+nmap <Leader>r :CtrlPMRUFiles<cr>
+
 " }}}
+
+
+" ======== Plugin-Settins ======== {{{
+
+" CtrlP Settings
+let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+
+"}}}
 
 
 " ======== Auto-Commands ======== {{{
@@ -65,7 +83,7 @@ nmap <Leader>o :NERDTreeToggle<cr>
 "Automatically source the Vimrc file on save.
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vim/vimrc source %
+	autocmd BufWritePost vimrc source $MYVIMRC
 augroup END
 
 " }}}

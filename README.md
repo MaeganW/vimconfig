@@ -20,6 +20,12 @@ Open up vim and install plugins:
 
 &lt;Leader&gt;f -&gt; open a code fold
 
+&lt;Leader&gt;p -&gt; use CtrlP - search files/directories
+
+&lt;Leader&gt;s -&gt; use CtrlP - search for symbols
+
+&lt;Leader&gt;r -&gt; use CtrlP - search most recent files
+
 ## Vinegar shortcuts
 
 While browsing through the directory...
