@@ -9,7 +9,7 @@ set mouse=a
 
 set backspace=indent,eol,start  	"Make backspace behave like every other editor.
 let mapleader = " "		 	"The default leader is \, but a space is much better.
-set number				"Activate line numbers.
+set nonumber				"Deactivate line numbers.
 
 " }}}
 
@@ -17,7 +17,10 @@ set number				"Activate line numbers.
 " ======== Visuals ======== {{{
 
 colorscheme atom-dark-256
-set t_CO=256i				"Force 256 colors in terminal"
+set t_CO=256				"Force 256 colors in terminal"
+highlight LineNr ctermbg=bg		"Removes line number highlighting"
+set foldcolumn=2			"fakes left-padding in terminal"
+hi foldcolumn ctermbg=bg		"sets padding color to the bg color"
 
 " }}}
 
@@ -88,6 +91,15 @@ augroup autosourcing
 	autocmd!
 	autocmd BufWritePost vimrc source $MYVIMRC
 augroup END
+
+" }}}
+
+
+" ======== Tips & Notes ======== {{{
+
+" - -> Moves up a directory
+" zz -> centers the line where the cursor is located
+" :bd -> destroys all buffers
 
 " }}}
 
