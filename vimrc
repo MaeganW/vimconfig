@@ -1,5 +1,6 @@
 set nocompatible              		" Want the latest vim settings/options
 so ~/.vim/plugins.vim
+let $MYVIMRC="~/.vim/vimrc"
 
 
 " ======== General Settings ======== {{{
