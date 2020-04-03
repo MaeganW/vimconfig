@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Clone down repo and replace /.vim directory
+Clone down repo and replace ~/.vim directory
 
 Open up vim and install plugins:
 
