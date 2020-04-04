@@ -10,7 +10,8 @@ set mouse=a
 
 set backspace=indent,eol,start  	"Make backspace behave like every other editor.
 let mapleader = " "		 	"The default leader is \, but a space is much better.
-set nonumber				"Deactivate line numbers.
+"set nonumber				"Deactivate line numbers.
+set number				"Activate line numbers.
 
 " }}}
 
@@ -18,10 +19,11 @@ set nonumber				"Deactivate line numbers.
 " ======== Visuals ======== {{{
 
 colorscheme atom-dark-256
-set t_CO=256				"Force 256 colors in terminal"
-highlight LineNr ctermbg=bg		"Removes line number highlighting"
-set foldcolumn=2			"fakes left-padding in terminal"
-hi foldcolumn ctermbg=bg		"sets padding color to the bg color"
+set redrawtime=10000
+set t_CO=256				"Force 256 colors in terminal
+highlight LineNr ctermbg=bg		"Removes line number highlighting
+"set foldcolumn=2			"fakes left-padding in terminal
+hi foldcolumn ctermbg=bg		"sets padding color to the bg color
 
 " }}}
 
