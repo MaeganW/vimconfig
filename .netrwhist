@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/maeganwomble'
-let g:netrw_dirhist_2='/Users'
-let g:netrw_dirhist_3='/Users/maeganwomble'
-let g:netrw_dirhist_4='/Users/maeganwomble/.vim'
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/maeganwomble/my-app/src'
+let g:netrw_dirhist_5='/Users/maeganwomble/my-app'
+let g:netrw_dirhist_4='/Users/maeganwomble/my-app/public'
+let g:netrw_dirhist_3='/Users/maeganwomble/my-app'
+let g:netrw_dirhist_2='/Users/maeganwomble/my-app/src'
+let g:netrw_dirhist_1='/Users/maeganwomble/my-app'
