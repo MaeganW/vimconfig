@@ -8,8 +8,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'maxmellon/vim-jsx-pretty'
+"Plugin 'HerringtonDarkholme/yats.vim'
+"Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
