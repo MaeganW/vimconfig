@@ -4,7 +4,7 @@
 
 Clone down repo and replace the ~/.vim directory
 
-Open up vim and install plugins:
+Open up vim, install Vundle, then install plugins:
 
 ```
 :PluginInstall
