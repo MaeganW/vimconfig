@@ -4,7 +4,14 @@
 
 Clone down repo and replace the ~/.vim directory
 
-Open up vim, install Vundle, then install plugins:
+Install Vundle
+
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+```
+
+Open up vim and install plugins:
 
 ```
 :PluginInstall
