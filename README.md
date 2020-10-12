@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Clone down repo and replace the ~/.vim directory
+Clone down vimconfig repo and rename as the ~/.vim directory
 
 Install Vundle
 
